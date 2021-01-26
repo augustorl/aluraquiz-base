@@ -5,7 +5,6 @@ import db from '../../db.json';
 import Widget from '../../src/components/Widget'
 import QuizLogo from '../../src/components/QuizLogo'
 import QuizBackground from '../../src/components/QuizBackground'
-import Footer from '../../src/components/Footer'
 import GitHubCorner from '../../src/components/GitHubCorner'
   
   
@@ -78,7 +77,6 @@ export default function ContributorsPage({ contributors }) {
             ))
           }
         </div>
-        <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
