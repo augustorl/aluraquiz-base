@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 augustorl
 https://aluraquiz-base.augustorl.vercel.app/
 =======
 augustorl
 >>>>>>> d37cf43... adding txt
+=======
+augustorl
+https://aluraquiz-base.augustorl.vercel.app/
+>>>>>>> 4fdc413... adding link to txt
