@@ -1,15 +1,30 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  margin-top: 24px;
+  margin-top: 18px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
-
+  form {
+    display: flex;
+  }
+  button {
+    min-width: 55px;
+    height: 36px;
+    background-color: ${({ theme }) => theme.colors.secondary};
+    color: #fff;
+    border: none;
+  }
+  input:active {
+    outline: none;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
   h1, h2, h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0;
