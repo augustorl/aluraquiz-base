@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 augustorl
 https://aluraquiz-base.augustorl.vercel.app/
+=======
+augustorl
+>>>>>>> d37cf43... adding txt
