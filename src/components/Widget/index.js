@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 18px;
-  margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
+  margin-bottom: 48px;
+  border: 1px solid ${({ theme }) => theme.colors.gold};
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
@@ -59,6 +59,11 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+    text-decoration: underline;
+    margin: 10px 0px;
+  }
+  li:hover {
+    color: ${({ theme }) => theme.colors.gold};
   }
 `;
 
