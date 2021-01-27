@@ -1,27 +1,14 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  margin-top: 18px;
-  margin-bottom: 48px;
+  margin-top: 5px;
+  margin-bottom: 18px;
   border: 1px solid ${({ theme }) => theme.colors.gold};
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
   form {
     display: flex;
-  }
-  button {
-    min-width: 55px;
-    height: 36px;
-    background-color: ${({ theme }) => theme.colors.secondary};
-    color: #fff;
-    border: none;
-  }
-  input:active {
-    outline: none;
-  }
-  button:hover {
-    opacity: 0.7;
   }
   h1, h2, h3 {
     font-size: 15px;
@@ -40,7 +27,7 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 18px 32px;
+  padding: 14px 22px;
   background-color: ${({ theme }) => theme.colors.primary};
   
   * {
@@ -49,7 +36,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
-  padding: 24px 32px 32px 32px;
+  padding: 24px 24px 24px 24px;
   & > *:first-child {
     margin-top: 0;
   }
@@ -64,6 +51,23 @@ Widget.Content = styled.div`
   }
   li:hover {
     color: ${({ theme }) => theme.colors.gold};
+  }
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  margin: 0px 5px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 
