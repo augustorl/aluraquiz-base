@@ -5,10 +5,10 @@ const Button = styled.button`
   background-color: ${({ theme }) => theme.colors.secondary};
   color: ${({ theme }) => theme.colors.contrastText};
   border: 0;
-  min-width: 55px;
-  height: 32px;
+  width: 100%;
+  min-height: 36px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   text-transform: uppercase;
   outline: 0;
