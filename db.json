@@ -4,25 +4,63 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://i.pinimg.com/originals/83/b2/4a/83b24a1b6646dbb4148f85b6f8ab25ee.jpg",
+      "title": "Qual foi o primeiro amor de Gangplank ?",
+      "description": "Aquecendo os motores",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Miss Fortune",
+        "Illaoi",
+        "Uma jovem mercadora",
+        "Graves"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://i.ytimg.com/vi/y5dP6PNlBqk/hqdefault.jpg",
+      "title": "O que Darius é de Swain?",
+      "description": "Se é que se conheceram",
+      "answer": 3,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Swain é primo de Darius",
+         "Amigo, antes do Draven nascer",
+         "Inimigo de longa data",
+         "Um confiável subordinado "
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/585323e4798587.33145834pantheon-and-leona-by-187002725-d7q2886.jpg",
+      "title": "Leona e Pantheon eram o que no passado?",
+      "description": "E esses dois?",
+      "answer": 2,
+      "alternatives": [
+         "Nada",
+         "Integrantes da mesma família",
+         "Namorados",
+         "Inimigos"
+      ]
+    },
+    {
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
+      "title": "Quem ressuscitou Sion?",
+      "description": "Quem foi o...",
+      "answer": 3,
+      "alternatives": [
+         "Ryze",
+         "Jarvan IV",
+         "Zilean",
+         "Katarina"
+      ]
+    },
+    {
+      "image": "https://i.ytimg.com/vi/_jyuQ0UhxTA/maxresdefault.jpg",
+      "title": "Quem é a irmã da Kayle?",
+      "description": "Hmm...",
+      "answer": 1,
+      "alternatives": [
+         "Riven",
+         "Morgana",
+         "Sona",
+         "Quinn"
       ]
     }
   ],
