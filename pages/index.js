@@ -47,11 +47,9 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-            <h1>Outros Quizes:</h1>
-
-            <ul>
-              <li>lorem ipsum sit dolor</li>
-            </ul>
+            <a href="https://aluraquiz-base.alura-challenges.vercel.app/contribuidores">
+              <h1>Quizes da Galera</h1>
+            </a>
           </Widget.Content>
         </Widget>
       </QuizContainer>
