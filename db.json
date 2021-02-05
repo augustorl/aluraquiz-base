@@ -1,7 +1,7 @@
 {
   "bg": "https://steamuserimages-a.akamaihd.net/ugc/860612122499646923/0F1F75ED219A20544E528A790D23016B1A34E37B/",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "#LeagueOfLegendsQuiz",
+  "description": "Teste os seus conhecimentos sobre o Lolzinho!",
   "questions": [
     {
       "image": "https://i.pinimg.com/originals/83/b2/4a/83b24a1b6646dbb4148f85b6f8ab25ee.jpg",
@@ -65,7 +65,8 @@
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-marvel.omariosouto.vercel.app/",
+    "https://aluraquiz-css.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
